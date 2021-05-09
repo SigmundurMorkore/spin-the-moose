@@ -26,6 +26,8 @@
   "dependencies": {
     "@fontsource/fira-mono": "^4.2.2",
     "@lukeed/uuid": "^2.0.0",
+    "@supabase/supabase-js": "^1.11.10",
+    "@svelteschool/svelte-forms": "^0.7.0",
     "cookie": "^0.4.1"
   }
 }

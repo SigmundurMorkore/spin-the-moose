@@ -2,6 +2,10 @@
 	import Stage2 from '$lib/Stage2.svelte';
 	import Stage3 from '$lib/Stage3.svelte';
 	let stage = 0;
+
+	function stage2Callback(event) {
+		stage = 3;
+	}
 </script>
 
 <svelte:head>
@@ -9,11 +13,11 @@
 </svelte:head>
 
 {#if stage === 0}
-	<button on:click={() => (stage = 1)}>Spin the Moose!</button>
+	<button on:click|preventDefault={() => (stage = 1)}>Spin the Moose!</button>
 {/if}
 
 {#if stage === 1}
-	<Stage2 callback={() => (stage = 3)} />
+	<Stage2 callback={stage2Callback} />
 {/if}
 
 {#if stage === 3}

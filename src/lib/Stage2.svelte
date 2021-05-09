@@ -1,5 +1,20 @@
 <script>
 	export let callback;
+
+	import Form from '@svelteschool/svelte-forms';
+	import { setUser } from '$lib/supabase.ts';
+
+	let values = { fullname: '', email: '' };
+
+	async function handleSubmit() {
+		if (values.fullname != '' && values.email != '') {
+			let { isUnique } = await setUser(values);
+			console.log(isUnique);
+			if (isUnique) {
+				callback();
+			}
+		}
+	}
 </script>
 
 <article>
@@ -14,25 +29,28 @@
 			voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 		</span>
 		<img src="/images/wheel.png" />
-		<form>
-			<fieldset>
-				<label for="fullname">Full Name:</label>
-				<input id="fullname" type="text" />
-			</fieldset>
+		<div class="form-wrapper">
+			<Form bind:values>
+				<fieldset>
+					<label for="fullname">Full Name:</label>
+					<input id="fullname" type="text" name="fullname" required />
+				</fieldset>
 
-			<fieldset>
-				<label for="email">Email:</label>
-				<input id="email" type="email" />
-			</fieldset>
+				<fieldset>
+					<label for="email">Email:</label>
+					<input id="email" type="email" name="email" required />
+				</fieldset>
 
-			<fieldset>
-				<label for="´phonenumber">Phone Number:</label>
-				<input id="´phonenumber" type="tel" />
-			</fieldset>
-
+				<fieldset>
+					<label for="phonenumber">Phone Number:</label>
+					<input id="phonenumber" type="tel" name="phonenumber" />
+				</fieldset>
+			</Form>
+		</div>
+		<div class="submit">
 			<span>By clicking the button below, you agree to be signed up to our newsletter.</span>
-			<button on:click={callback}>Click here to spin the moose</button>
-		</form>
+			<button on:click|preventDefault={handleSubmit}>Click here to spin the moose</button>
+		</div>
 	</main>
 </article>
 
@@ -64,7 +82,8 @@
 	main span {
 		font-size: 18px;
 	}
-	form {
+	form,
+	.form-wrapper {
 		display: flex;
 		flex-direction: column;
 		grid-column: span 2;
@@ -84,6 +103,12 @@
 		background: inherit;
 		border-radius: 0;
 		width: 100%;
+	}
+
+	.submit {
+		display: flex;
+		flex-direction: column;
+		grid-column: span 2;
 	}
 
 	button {

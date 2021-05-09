@@ -1,3 +1,7 @@
+<script>
+	import { createWinner } from '$lib/supabase.ts';
+</script>
+
 <article>
 	<header>
 		<h1>Spin the Moose!</h1>
@@ -5,7 +9,7 @@
 	<main>
 		<img src="/images/wheel.png" />
 
-		<button>Claim your price!</button>
+		<button on:click={createWinner}>Claim your price!</button>
 	</main>
 </article>
 
