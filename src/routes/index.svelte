@@ -1,59 +1,41 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
-	import Counter from '$lib/Counter/index.svelte';
+	import Stage2 from '$lib/Stage2.svelte';
+	import Stage3 from '$lib/Stage3.svelte';
+	let stage = 0;
 </script>
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
+{#if stage === 0}
+	<button on:click={() => (stage = 1)}>Spin the Moose!</button>
+{/if}
 
-		to your new<br />SvelteKit app
-	</h1>
+{#if stage === 1}
+	<Stage2 callback={() => (stage = 3)} />
+{/if}
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
+{#if stage === 3}
+	<Stage3 />
+{/if}
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
+	button {
+		height: 50px;
+		background: #ff3d17;
+		color: white;
+		border-radius: 25px;
+		padding-left: 50px;
+		padding-right: 50px;
+
+		font-size: 18px;
+		font-weight: bold;
+
+		cursor: pointer;
 	}
 
 	h1 {
 		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>
