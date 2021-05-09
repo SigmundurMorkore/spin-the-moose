@@ -1,10 +1,11 @@
 <script lang="ts">
 	import Stage2 from '$lib/Stage2.svelte';
 	import Stage3 from '$lib/Stage3.svelte';
-	let stage = 0;
 
-	function stage2Callback(event) {
-		stage = 3;
+	// Keep track of current stage
+	let stage = 0;
+	function callback(number) {
+		stage = number;
 	}
 </script>
 
@@ -17,11 +18,11 @@
 {/if}
 
 {#if stage === 1}
-	<Stage2 callback={stage2Callback} />
+	<Stage2 {callback} />
 {/if}
 
 {#if stage === 3}
-	<Stage3 />
+	<Stage3 {callback} />
 {/if}
 
 <style>

@@ -7,11 +7,14 @@
 	let values = { fullname: '', email: '' };
 
 	async function handleSubmit() {
+		// If values aren't empty
 		if (values.fullname != '' && values.email != '') {
+			// set the user
 			let { isUnique } = await setUser(values);
-			console.log(isUnique);
+
+			// If the user is unique, continue to next stage
 			if (isUnique) {
-				callback();
+				callback(3);
 			}
 		}
 	}
