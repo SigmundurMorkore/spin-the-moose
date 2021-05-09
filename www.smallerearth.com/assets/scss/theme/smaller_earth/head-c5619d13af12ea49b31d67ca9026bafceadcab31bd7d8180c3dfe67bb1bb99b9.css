@@ -1,0 +1,4796 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://use.typekit.net/hej8wzk.css");
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+details, img {
+  display: block;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+button, hr, input {
+  overflow: visible;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+progress, sub, sup {
+  vertical-align: baseline;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[type=checkbox], [type=radio], legend {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+b, strong {
+  font-weight: bolder;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+  outline: ButtonText dotted 1px;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  white-space: normal;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* line 1, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------
+
+Super Form Reset
+
+A couple of things to watch out for:
+
+- IE8: If a text input doesn't have padding on all sides or none the text won't be centered.
+- The default border sizes on text inputs in all UAs seem to be slightly different. You're better off using custom borders.
+- You NEED to set the font-size and family on all form elements
+- Search inputs need to have their appearance reset and the box-sizing set to content-box to match other UAs
+- You can style the upload button in webkit using ::-webkit-file-upload-button
+- ::-webkit-file-upload-button selectors can't be used in the same selector as normal ones. FF and IE freak out.
+- IE: You don't need to fake inline-block with labels and form controls in IE. They function as inline-block.
+- By turning off ::-webkit-search-decoration, it removes the extra whitespace on the left on search inputs
+
+----------------------------------------------------------------------------------------------------*/
+/* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+input,
+label,
+select,
+button,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  /* Browsers have different default form fonts */
+  font-size: 13px;
+  font-family: Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+/* line 39, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+input:focus {
+  outline: 0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+/* All of our custom controls should be what we expect them to be */
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+input,
+textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* These elements are usually rendered a certain way by the browser */
+/* line 57, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+button,
+input[type=reset],
+input[type=button],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Text Inputs
+-----------------------------------------------*/
+/* Button Controls
+-----------------------------------------------*/
+/* line 76, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+input[type=checkbox],
+input[type=radio] {
+  width: 13px;
+  height: 13px;
+}
+
+/* Search Input
+-----------------------------------------------*/
+/* Make webkit render the search input like a normal text field */
+/* line 88, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+}
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+/* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+::-webkit-search-decoration {
+  display: none;
+}
+
+/* Buttons
+-----------------------------------------------*/
+/* line 103, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+  /* Fix IE7 display bug */
+  overflow: visible;
+  width: auto;
+}
+
+/* IE8 and FF freak out if this rule is within another selector */
+/* line 114, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+::-webkit-file-upload-button {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* Textarea
+-----------------------------------------------*/
+/* line 124, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+textarea {
+  /* Move the label to the top */
+  vertical-align: top;
+  /* Turn off scroll bars in IE unless needed */
+  overflow: auto;
+}
+
+/* Selects
+-----------------------------------------------*/
+/* line 136, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_form_reset.scss */
+select[multiple] {
+  /* Move the label to the top */
+  vertical-align: top;
+}
+
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.color__brand {
+  color: #000;
+}
+
+/* line 15, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.background__brand {
+  background: #000;
+}
+
+/* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.border__brand {
+  border-color: #000;
+}
+
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.color__brand-2 {
+  color: #000;
+}
+
+/* line 15, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.background__brand-2 {
+  background: #000;
+}
+
+/* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.border__brand-2 {
+  border-color: #000;
+}
+
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.color__light-grey {
+  color: #FAFAFA;
+}
+
+/* line 15, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.background__light-grey {
+  background: #FAFAFA;
+}
+
+/* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.border__light-grey {
+  border-color: #FAFAFA;
+}
+
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.color__white {
+  color: white;
+}
+
+/* line 15, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.background__white {
+  background: white;
+}
+
+/* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.border__white {
+  border-color: white;
+}
+
+/* line 25, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.text--left {
+  text-align: left !important;
+}
+/* line 28, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.text--center {
+  text-align: center !important;
+}
+/* line 31, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.text--right {
+  text-align: right !important;
+}
+
+/* line 38, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.heading__text--left h1,
+.heading__text--left h2,
+.heading__text--left h3,
+.heading__text--left h4,
+.heading__text--left h5,
+.heading__text--left h6,
+.heading__text--left .h1,
+.heading__text--left .h2,
+.heading__text--left .h3,
+.heading__text--left .h4,
+.heading__text--left .h5,
+.heading__text--left .h6 {
+  text-align: left !important;
+}
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.heading__text--center h1,
+.heading__text--center h2,
+.heading__text--center h3,
+.heading__text--center h4,
+.heading__text--center h5,
+.heading__text--center h6,
+.heading__text--center .h1,
+.heading__text--center .h2,
+.heading__text--center .h3,
+.heading__text--center .h4,
+.heading__text--center .h5,
+.heading__text--center .h6 {
+  text-align: center !important;
+}
+/* line 70, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.heading__text--right h1,
+.heading__text--right h2,
+.heading__text--right h3,
+.heading__text--right h4,
+.heading__text--right h5,
+.heading__text--right h6,
+.heading__text--right .h1,
+.heading__text--right .h2,
+.heading__text--right .h3,
+.heading__text--right .h4,
+.heading__text--right .h5,
+.heading__text--right .h6 {
+  text-align: right !important;
+}
+
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.m-b-10 {
+  margin-bottom: 10px;
+}
+/* line 94, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.m-b-20 {
+  margin-bottom: 20px;
+}
+/* line 97, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.m-b-30 {
+  margin-bottom: 30px;
+}
+/* line 100, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.m-b-40 {
+  margin-bottom: 40px;
+}
+/* line 103, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.m-b-50 {
+  margin-bottom: 50px;
+}
+
+/* line 111, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.image__left {
+  object-position: left !important;
+}
+/* line 114, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.image__center {
+  object-position: center !important;
+}
+/* line 117, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.image__right {
+  object-position: right !important;
+}
+/* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.image__top {
+  object-position: top !important;
+}
+/* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_helpers.scss */
+.image__bottom {
+  object-position: bottom !important;
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+p, ul, ol, li {
+  line-height: 1.4;
+}
+
+/* line 8, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+p {
+  margin: 0 0 0.5rem;
+}
+@media (min-width: 768px) {
+  /* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  p {
+    margin: 0 0 1rem;
+  }
+}
+/* line 17, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+p:last-child {
+  margin: 0;
+}
+
+/* line 22, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+a {
+  color: inherit;
+}
+
+/* line 26, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+th, td {
+  font-size: 12px;
+}
+@media (min-width: 480px) {
+  /* line 26, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  th, td {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 26, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  th, td {
+    font-size: 16px;
+  }
+}
+
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ul, ol {
+  padding-left: 20px;
+}
+
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+li {
+  margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  /* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 49, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ul.circle {
+  list-style-type: circle;
+}
+
+/* line 52, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ul.disc {
+  list-style-type: disc;
+}
+
+/* line 55, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ul.square {
+  list-style-type: square;
+}
+
+/* line 60, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.decimal {
+  list-style-type: decimal;
+}
+
+/* line 63, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+/* line 66, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+/* line 69, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.lower-latin {
+  list-style-type: lower-latin;
+}
+
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.lower-roman {
+  list-style-type: lower-roman;
+}
+
+/* line 75, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+/* line 78, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.upper-latin {
+  list-style-type: upper-latin;
+}
+
+/* line 81, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.upper-roman {
+  list-style-type: upper-roman;
+}
+
+/* line 84, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+ol.none, ul.none {
+  list-style-type: none;
+}
+
+/* line 89, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+p, ul, ol, li, .hero__author_wrap {
+  font-size: 15px;
+}
+@media (min-width: 375px) {
+  /* line 89, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  p, ul, ol, li, .hero__author_wrap {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 89, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  p, ul, ol, li, .hero__author_wrap {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 89, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  p, ul, ol, li, .hero__author_wrap {
+    font-size: 18px;
+  }
+}
+
+/* line 106, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "proxima-nova";
+  font-weight: bold;
+  line-height: 0.9;
+}
+
+/* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h1,
+.h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 375px) {
+  /* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h1,
+  .h1 {
+    font-size: 2.475rem;
+  }
+}
+@media (min-width: 480px) {
+  /* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h1,
+  .h1 {
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h1,
+  .h1 {
+    font-size: 2.925rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h1,
+  .h1 {
+    font-size: 3.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h1,
+  .h1 {
+    font-size: 3.375rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h1,
+  .h1 {
+    font-size: 3.6rem;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 123, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h1,
+  .h1 {
+    font-size: 4.05rem;
+  }
+}
+
+/* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h2,
+.h2 {
+  font-size: 2rem;
+}
+@media (min-width: 375px) {
+  /* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h2,
+  .h2 {
+    font-size: 2.2rem;
+  }
+}
+@media (min-width: 480px) {
+  /* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h2,
+  .h2 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h2,
+  .h2 {
+    font-size: 2.6rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h2,
+  .h2 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h2,
+  .h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h2,
+  .h2 {
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h2,
+  .h2 {
+    font-size: 3.6rem;
+  }
+}
+
+/* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+@media (min-width: 375px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h3,
+  .h3 {
+    font-size: 1.925rem;
+  }
+}
+@media (min-width: 480px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h3,
+  .h3 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h3,
+  .h3 {
+    font-size: 2.275rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h3,
+  .h3 {
+    font-size: 2.45rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h3,
+  .h3 {
+    font-size: 2.625rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h3,
+  .h3 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h3,
+  .h3 {
+    font-size: 3.15rem;
+  }
+}
+
+/* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+@media (min-width: 375px) {
+  /* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h4,
+  .h4 {
+    font-size: 1.65rem;
+  }
+}
+@media (min-width: 480px) {
+  /* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h4,
+  .h4 {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h4,
+  .h4 {
+    font-size: 1.95rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h4,
+  .h4 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h4,
+  .h4 {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h4,
+  .h4 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 198, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h4,
+  .h4 {
+    font-size: 2.7rem;
+  }
+}
+
+/* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+@media (min-width: 375px) {
+  /* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h5,
+  .h5 {
+    font-size: 1.375rem;
+  }
+}
+@media (min-width: 480px) {
+  /* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h5,
+  .h5 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h5,
+  .h5 {
+    font-size: 1.625rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h5,
+  .h5 {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h5,
+  .h5 {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h5,
+  .h5 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 223, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h5,
+  .h5 {
+    font-size: 2.25rem;
+  }
+}
+
+/* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+h6,
+.h6 {
+  font-size: 1rem;
+}
+@media (min-width: 375px) {
+  /* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h6,
+  .h6 {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 480px) {
+  /* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h6,
+  .h6 {
+    font-size: 1.15rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h6,
+  .h6 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h6,
+  .h6 {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h6,
+  .h6 {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h6,
+  .h6 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 248, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/base/_typography.scss */
+  h6,
+  .h6 {
+    font-size: 1.6rem;
+  }
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header {
+  width: 100%;
+  z-index: 1;
+  display: block;
+}
+/* line 7, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--wrap {
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  justify-content: flex-end;
+  -ms-flex-pack: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 375px) {
+  /* line 7, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 7, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--wrap {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 7, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--wrap {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 7, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--wrap {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 7, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--wrap {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 7, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--wrap {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+/* line 16, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item {
+  color: #000;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  /* line 16, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item {
+    margin-right: 20px;
+  }
+}
+/* line 22, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item path, .header__list--item rect, .header__list--item polygon {
+  fill: #000;
+}
+/* line 25, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item-menu {
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  /* line 25, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-menu {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item-menu svg {
+  display: block;
+  height: 32px;
+  width: 32px;
+}
+@media (min-width: 375px) {
+  /* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-menu svg {
+    height: 38px;
+    width: 38px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-menu svg {
+    height: 40px;
+    width: 40px;
+  }
+}
+/* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item-menu_text {
+  font-size: 16px;
+  margin-right: 5px;
+}
+@media (min-width: 480px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-menu_text {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-menu_text {
+    font-size: 20px;
+  }
+}
+/* line 47, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item-logo {
+  margin-right: auto;
+  -webkit-box-ordinal-group: -2;
+  -moz-box-ordinal-group: -2;
+  -ms-flex-order: -2;
+  -webkit-order: -2;
+  order: -2;
+}
+/* line 50, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item-logo img, .header__list--item-logo svg {
+  height: 32px;
+  display: block;
+}
+@media (min-width: 375px) {
+  /* line 50, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-logo img, .header__list--item-logo svg {
+    height: 36px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 50, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-logo img, .header__list--item-logo svg {
+    height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 50, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__list--item-logo img, .header__list--item-logo svg {
+    height: 50px;
+  }
+}
+/* line 64, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__list--item:not(.header__list--no-link-item) {
+  cursor: pointer;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header .navigation__search {
+  display: none;
+  margin: 0 1rem;
+}
+@media (min-width: 992px) {
+  /* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header .navigation__search {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header .navigation__search {
+    margin: 0 3rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header .navigation__search {
+    margin: 0 4rem;
+  }
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+/* line 89, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch.hide {
+  height: 0px;
+  display: none;
+  transition: 0.3s;
+}
+/* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch .suggest_country_buttons {
+  padding-top: 20px;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+}
+@media (min-width: 375px) {
+  /* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_buttons {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_buttons {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_buttons {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_buttons {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_buttons {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_buttons {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+/* line 102, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch .suggest_country_buttons .suggest_country_more {
+  padding: 0px 5px;
+}
+/* line 105, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch .suggest_country_buttons .suggest_country_more svg {
+  cursor: pointer;
+  display: block;
+  fill: #FFF;
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+}
+/* line 113, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch .suggest_country_buttons .suggest_country_more svg > g > g {
+  fill: #FFF;
+}
+/* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch .suggest_country_close {
+  text-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  margin-top: 20px;
+}
+@media (min-width: 375px) {
+  /* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_close {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_close {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_close {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_close {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_close {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 120, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_close {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+/* line 128, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch .suggest_country_close svg {
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+/* line 134, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.header__suggest_switch .suggest_country_close svg use {
+  fill: #FFF;
+}
+@media (min-width: 992px) {
+  /* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+  }
+}
+@media (min-width: 992px) and (min-width: 375px) {
+  /* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 992px) and (min-width: 480px) {
+  /* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 992px) and (min-width: 768px) {
+  /* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 992px) and (min-width: 992px) {
+  /* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 992px) and (min-width: 1200px) {
+  /* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 992px) and (min-width: 1500px) {
+  /* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 147, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_text {
+    margin: 0;
+    flex: 1;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+  /* line 154, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_action {
+    margin: 0;
+    text-align: right;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+  }
+  /* line 160, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_buttons {
+    padding: 0px;
+    padding-left: 10px;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    justify-content: flex-end;
+    -ms-flex-pack: flex-end;
+  }
+  /* line 167, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .header__suggest_switch .suggest_country_close {
+    padding: 0;
+    padding-left: 30px;
+    margin: 0px;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    justify-content: flex-end;
+    -ms-flex-pack: flex-end;
+  }
+}
+
+/* line 179, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.page_wrapper {
+  position: relative;
+}
+
+/* line 183, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+.navigation__search {
+  margin: 1rem 1rem 0;
+}
+@media (min-width: 992px) {
+  /* line 183, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .navigation__search {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 183, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .navigation__search {
+    margin: 0 3rem;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 183, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_header.scss */
+  .navigation__search {
+    margin: 0 4rem;
+  }
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+.site__wrapper {
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* line 9, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+@media (min-width: 375px) {
+  /* line 9, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 9, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  main {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 9, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  main {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 9, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  main {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 9, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  main {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 9, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  main {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+/* line 14, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+.freeze {
+  overflow: hidden;
+}
+
+/* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+.margin {
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  /* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  .margin {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  .margin {
+    margin-bottom: 70px;
+  }
+}
+
+/* line 22, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+.margin__top {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  /* line 22, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  .margin__top {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 22, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_container.scss */
+  .margin__top {
+    margin-bottom: 70px;
+  }
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+@media (min-width: 375px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    padding: 6px 25px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 18px;
+  }
+}
+
+/* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn {
+  min-width: 90px;
+}
+@media (min-width: 375px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 100px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 120px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 140px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 160px;
+  }
+}
+/* line 51, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--primary {
+  border-color: #F8E71C;
+  color: #F8E71C;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 56, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--primary:hover {
+    background: #F8E71C;
+    color: white;
+  }
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--brand {
+  border-color: #000;
+  color: #000;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 67, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--brand:hover {
+    background: #000;
+    color: white;
+  }
+}
+/* line 73, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--white {
+  border-color: white;
+  color: white;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 78, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--white:hover {
+    background: white;
+    color: #000;
+  }
+}
+/* line 84, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--white-2 {
+  border-color: white;
+  color: white;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 89, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--white-2:hover {
+    background: white;
+    color: #000;
+  }
+}
+/* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--secondary {
+  border-color: #000;
+  color: #000;
+}
+@media (min-width: 768px) {
+  /* line 99, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--secondary:hover {
+    background: #000;
+    color: white;
+  }
+}
+/* line 106, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--white {
+  background: white;
+  color: #000;
+}
+/* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--text {
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  /* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--text {
+    font-size: 11px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--text {
+    font-size: 12px;
+  }
+}
+/* line 119, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn.with--icon {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+/* line 122, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn.with--icon svg {
+  width: 16px;
+  margin-right: 6px;
+}
+
+/* line 129, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--primary {
+  background: #F8E71C;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 133, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--primary:hover {
+    background: #faec4d;
+  }
+}
+
+/* line 139, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--brand {
+  background: #000;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 143, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--brand:hover {
+    background: #1a1a1a;
+  }
+}
+
+/* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--brand-3 {
+  background: #000;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 152, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--brand-3:hover {
+    background: #1a1a1a;
+  }
+}
+
+/* line 158, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--secondary {
+  background: #000;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 162, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--secondary:hover {
+    background: #1a1a1a;
+  }
+}
+
+/* line 168, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap--center {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__wrap--center {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__wrap--center {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__wrap--center {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+  }
+}
+/* line 182, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap .btn {
+  -webkit-box-flex: 0 1 auto;
+  -moz-box-flex: 0 1 auto;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+/* line 185, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap .btn--back {
+  margin-right: auto;
+}
+
+/* line 190, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn:disabled {
+  background: #c7c7c7 !important;
+  cursor: not-allowed !important;
+  color: white !important;
+}
+/* line 194, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn:disabled:hover {
+  background: #c7c7c7 !important;
+}
+
+/* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.hero__blog {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: -10px;
+  margin-right: -10px;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #000;
+}
+@media (min-width: 375px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    margin-left: -140px;
+    margin-right: -140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    margin-left: -200px;
+    margin-right: -200px;
+  }
+}
+@media (min-width: 375px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.hero__blog--inner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media (min-width: 768px) {
+  /* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog--inner {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog--inner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+/* line 24, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.hero__blog--text {
+  color: white;
+}
+/* line 27, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.hero__blog--margin {
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  /* line 27, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog--margin {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 27, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .hero__blog--margin {
+    margin-bottom: 70px;
+  }
+}
+
+/* line 37, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  /* line 37, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__wrapper {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__wrapper {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 37, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__wrapper {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+/* line 45, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar {
+  position: relative;
+  color: #000;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  /* line 45, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar {
+    -webkit-box-flex: 0 0 200px;
+    -moz-box-flex: 0 0 200px;
+    -webkit-flex: 0 0 200px;
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 45, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar {
+    -webkit-box-flex: 0 0 220px;
+    -moz-box-flex: 0 0 220px;
+    -webkit-flex: 0 0 220px;
+    -ms-flex: 0 0 220px;
+    flex: 0 0 220px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 45, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar {
+    -webkit-box-flex: 0 0 250px;
+    -moz-box-flex: 0 0 250px;
+    -webkit-flex: 0 0 250px;
+    -ms-flex: 0 0 250px;
+    flex: 0 0 250px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 45, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar {
+    -webkit-box-flex: 0 0 280px;
+    -moz-box-flex: 0 0 280px;
+    -webkit-flex: 0 0 280px;
+    -ms-flex: 0 0 280px;
+    flex: 0 0 280px;
+  }
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar--content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  /* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar--content {
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 16px;
+  }
+}
+/* line 75, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar--author {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 10px 0 0;
+}
+@media (min-width: 768px) {
+  /* line 75, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar--author {
+    margin: 0 0 20px;
+  }
+}
+/* line 82, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar--author__type {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* line 87, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar--info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-style: italic;
+}
+@media (min-width: 768px) {
+  /* line 87, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar--info {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/* line 93, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar--info__time {
+  margin: 0 5px 0 0;
+  padding-right: 5px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 93, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar--info__time {
+    padding: 0;
+    margin: 0 0 5px;
+  }
+}
+/* line 101, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar--info__time:after {
+  content: "-";
+  position: absolute;
+  right: -5px;
+}
+@media (min-width: 768px) {
+  /* line 101, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar--info__time:after {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  /* line 114, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar.active .blog__sidebar--content {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+/* line 121, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sidebar.active .blog__sticky {
+  position: fixed;
+  margin: 0;
+  left: 0;
+  -moz-box-shadow: -1px 2px 6px -1px rgba(3, 31, 39, 0.61);
+  -webkit-box-shadow: -1px 2px 6px -1px rgba(3, 31, 39, 0.61);
+  box-shadow: -1px 2px 6px -1px rgba(3, 31, 39, 0.61);
+}
+@media (min-width: 768px) {
+  /* line 121, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar.active .blog__sticky {
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    top: 30px;
+    left: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 121, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar.active .blog__sticky {
+    left: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 121, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar.active .blog__sticky {
+    left: 140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 121, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sidebar.active .blog__sticky {
+    left: 200px;
+  }
+}
+/* line 146, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__content {
+  -webkit-box-flex: 1 1 100%;
+  -moz-box-flex: 1 1 100%;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  /* line 146, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__content {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 146, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__content {
+    padding-left: 50px;
+  }
+}
+/* line 155, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__content p {
+  margin-bottom: 20px;
+}
+/* line 158, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__content .heading {
+  margin: 1rem 0;
+}
+/* line 160, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__content .heading:first-of-type {
+  margin-top: 0;
+}
+/* line 165, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__content > *:last-child {
+  margin-bottom: 0;
+}
+/* line 169, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__content .banner {
+  height: auto;
+  min-height: auto;
+  max-height: 100%;
+}
+/* line 174, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__content .banner__img img {
+  height: auto;
+}
+/* line 182, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__related .columns__title {
+  background: #000;
+  color: white;
+}
+
+/* line 190, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+  -moz-transition: margin 0.3s, box-shadow 0.3s;
+  -o-transition: margin 0.3s, box-shadow 0.3s;
+  -webkit-transition: margin 0.3s, box-shadow 0.3s;
+  transition: margin 0.3s, box-shadow 0.3s;
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0px;
+  margin-top: -70px;
+  right: 0;
+  z-index: 2;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 480px) {
+  /* line 190, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sticky {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 190, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sticky {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-transition: margin 0.3s, box-shadow 0.3s, opacity 0.3s;
+    -o-transition: margin 0.3s, box-shadow 0.3s, opacity 0.3s;
+    -webkit-transition: margin 0.3s, box-shadow 0.3s, opacity 0.3s;
+    transition: margin 0.3s, box-shadow 0.3s, opacity 0.3s;
+    background: transparent;
+    padding: 0;
+    position: absolute;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+/* line 220, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky--share {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
+}
+@media (min-width: 768px) {
+  /* line 220, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sticky--share {
+    margin-bottom: 10px;
+    -webkit-box-ordinal-group: 0;
+    -moz-box-ordinal-group: 0;
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+  }
+}
+/* line 228, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky--btn {
+  width: 39px;
+}
+@media (min-width: 768px) {
+  /* line 228, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+  .blog__sticky--btn {
+    width: 42px;
+  }
+}
+/* line 233, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky--btn:first-child {
+  margin-right: 5px;
+}
+/* line 236, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky--btn:last-child {
+  margin-left: 5px;
+}
+/* line 239, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky--btn__wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+/* line 242, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky--btn__wrap svg {
+  width: 100%;
+  display: block;
+}
+/* line 245, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_blog.scss */
+.blog__sticky--btn__wrap svg * {
+  fill: #000;
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_image.scss */
+.b-lazy {
+  opacity: 0;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+/* line 6, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_image.scss */
+.b-lazy.b-loaded {
+  opacity: 1;
+}
+
+/* line 20, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__brand {
+  color: white;
+  background: #000;
+}
+
+/* line 25, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__ {
+  color: white;
+  background: #000;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__adventure_china {
+  background: #ec1e27;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__adventure_china.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__adventure_china.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__adventure_china.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__adventure_china .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .background__brand {
+  background: #ec1e27;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .color__brand {
+  color: #ec1e27;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .icon__list_item_icon svg * {
+  fill: #ec1e27;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .icon__list_item_text {
+  color: #ec1e27;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .program__navigation_wrap {
+  color: #ec1e27;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .reviews__item.block__left .reviews__item--inner {
+  background: #ec1e27;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .loading span {
+  color: #ec1e27;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .cta__icon {
+  background: #ec1e27;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.adventure_china .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_canada {
+  background: #ff3d17;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_canada.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_canada.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_canada.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_canada .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .background__brand {
+  background: #ff3d17;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .color__brand {
+  color: #ff3d17;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .icon__list_item_icon svg * {
+  fill: #ff3d17;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .icon__list_item_text {
+  color: #ff3d17;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .program__navigation_wrap {
+  color: #ff3d17;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .reviews__item.block__left .reviews__item--inner {
+  background: #ff3d17;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .loading span {
+  color: #ff3d17;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .cta__icon {
+  background: #ff3d17;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_canada .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_leaders {
+  background: #00aae3;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_leaders.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_leaders.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_leaders.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__camp_leaders .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .background__brand {
+  background: #00aae3;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .color__brand {
+  color: #00aae3;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .icon__list_item_icon svg * {
+  fill: #00aae3;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .icon__list_item_text {
+  color: #00aae3;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .program__navigation_wrap {
+  color: #00aae3;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .reviews__item.block__left .reviews__item--inner {
+  background: #00aae3;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .loading span {
+  color: #00aae3;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .cta__icon {
+  background: #00aae3;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.camp_leaders .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__canago {
+  background: #da2026;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__canago.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__canago.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__canago.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__canago .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .background__brand {
+  background: #da2026;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .color__brand {
+  color: #da2026;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .icon__list_item_icon svg * {
+  fill: #da2026;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .icon__list_item_text {
+  color: #da2026;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .program__navigation_wrap {
+  color: #da2026;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .reviews__item.block__left .reviews__item--inner {
+  background: #da2026;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .loading span {
+  color: #da2026;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .cta__icon {
+  background: #da2026;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.canago .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__kiwi_and_kiwi {
+  background: #333333;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__kiwi_and_kiwi.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__kiwi_and_kiwi.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__kiwi_and_kiwi.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__kiwi_and_kiwi .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .background__brand {
+  background: #333333;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .color__brand {
+  color: #333333;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .icon__list_item_icon svg * {
+  fill: #333333;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .icon__list_item_text {
+  color: #333333;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .program__navigation_wrap {
+  color: #333333;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .reviews__item.block__left .reviews__item--inner {
+  background: #333333;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .loading span {
+  color: #333333;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .cta__icon {
+  background: #333333;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.kiwi_and_kiwi .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__resort_leaders {
+  background: #304155;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__resort_leaders.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__resort_leaders.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__resort_leaders.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__resort_leaders .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .background__brand {
+  background: #304155;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .color__brand {
+  color: #304155;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .icon__list_item_icon svg * {
+  fill: #304155;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .icon__list_item_text {
+  color: #304155;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .program__navigation_wrap {
+  color: #304155;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .reviews__item.block__left .reviews__item--inner {
+  background: #304155;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .loading span {
+  color: #304155;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .cta__icon {
+  background: #304155;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.resort_leaders .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__smaller_earth {
+  background: #7AECFC;
+  color: #000000;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__smaller_earth.program__brand svg * {
+  fill: #000000;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__smaller_earth.hero__program_brand svg * {
+  fill: #000000;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__smaller_earth.program__bar {
+  color: #000000;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__smaller_earth .program__bar_logo svg * {
+  fill: #000000;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .background__brand {
+  background: #7AECFC;
+  color: #000000;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .background__brand.program__bar {
+  color: #000000;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .color__brand {
+  color: #7AECFC;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .icon__list_item_icon svg * {
+  fill: #7AECFC;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .icon__list_item_text {
+  color: #7AECFC;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .program__navigation_wrap {
+  color: #7AECFC;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .reviews__item.block__left .reviews__item--inner {
+  background: #7AECFC;
+  color: #000000;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .loading span {
+  color: #7AECFC;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .cta__icon {
+  background: #7AECFC;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.smaller_earth .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__usa_summer_camp {
+  background: #c6213a;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__usa_summer_camp.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__usa_summer_camp.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__usa_summer_camp.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__usa_summer_camp .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .background__brand {
+  background: #c6213a;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .color__brand {
+  color: #c6213a;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .icon__list_item_icon svg * {
+  fill: #c6213a;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .icon__list_item_text {
+  color: #c6213a;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .program__navigation_wrap {
+  color: #c6213a;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .reviews__item.block__left .reviews__item--inner {
+  background: #c6213a;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .loading span {
+  color: #c6213a;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .cta__icon {
+  background: #c6213a;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.usa_summer_camp .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__work_and_traveller {
+  background: #63c1c7;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__work_and_traveller.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__work_and_traveller.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__work_and_traveller.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__work_and_traveller .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .background__brand {
+  background: #63c1c7;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .color__brand {
+  color: #63c1c7;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .icon__list_item_icon svg * {
+  fill: #63c1c7;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .icon__list_item_text {
+  color: #63c1c7;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .program__navigation_wrap {
+  color: #63c1c7;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .reviews__item.block__left .reviews__item--inner {
+  background: #63c1c7;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .loading span {
+  color: #63c1c7;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .cta__icon {
+  background: #63c1c7;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.work_and_traveller .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__au_pair {
+  background: #63c1c7;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__au_pair.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__au_pair.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__au_pair.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__au_pair .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .background__brand {
+  background: #63c1c7;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .color__brand {
+  color: #63c1c7;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .icon__list_item_icon svg * {
+  fill: #63c1c7;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .icon__list_item_text {
+  color: #63c1c7;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .program__navigation_wrap {
+  color: #63c1c7;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .reviews__item.block__left .reviews__item--inner {
+  background: #63c1c7;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .loading span {
+  color: #63c1c7;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .cta__icon {
+  background: #63c1c7;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.au_pair .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__lo_pair {
+  background: #E2E600;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__lo_pair.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__lo_pair.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__lo_pair.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__lo_pair .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .background__brand {
+  background: #E2E600;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .color__brand {
+  color: #E2E600;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .icon__list_item_icon svg * {
+  fill: #E2E600;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .icon__list_item_text {
+  color: #E2E600;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .program__navigation_wrap {
+  color: #E2E600;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .reviews__item.block__left .reviews__item--inner {
+  background: #E2E600;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .loading span {
+  color: #E2E600;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .cta__icon {
+  background: #E2E600;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.lo_pair .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rci {
+  background: #0B6541;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rci.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rci.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rci.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rci .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .background__brand {
+  background: #0B6541;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .color__brand {
+  color: #0B6541;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .icon__list_item_icon svg * {
+  fill: #0B6541;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .icon__list_item_text {
+  color: #0B6541;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .program__navigation_wrap {
+  color: #0B6541;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .reviews__item.block__left .reviews__item--inner {
+  background: #0B6541;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .loading span {
+  color: #0B6541;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .cta__icon {
+  background: #0B6541;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rci .cta__icon svg * {
+  fill: white;
+}
+
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rainbow_garden_village {
+  background: #ceb791;
+  color: #FFFFFF;
+}
+/* line 36, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rainbow_garden_village.program__brand svg * {
+  fill: #FFFFFF;
+}
+/* line 40, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rainbow_garden_village.hero__program_brand svg * {
+  fill: #FFFFFF;
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rainbow_garden_village.program__bar {
+  color: #FFFFFF;
+}
+/* line 48, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.background__rainbow_garden_village .program__bar_logo svg * {
+  fill: #FFFFFF;
+}
+
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .background__brand {
+  background: #ceb791;
+  color: #FFFFFF;
+}
+/* line 58, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .background__brand.program__bar {
+  color: #FFFFFF;
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .color__brand {
+  color: #ceb791;
+}
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .icon__list_item_icon svg * {
+  fill: #ceb791;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .icon__list_item_text {
+  color: #ceb791;
+}
+/* line 77, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .program__navigation_wrap {
+  color: #ceb791;
+}
+/* line 83, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .reviews__item.block__left .reviews__item--inner {
+  background: #ceb791;
+  color: #FFFFFF;
+}
+/* line 91, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .loading span {
+  color: #ceb791;
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .cta__icon {
+  background: #ceb791;
+}
+/* line 98, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/layout/_brands.scss */
+.rainbow_garden_village .cta__icon svg * {
+  fill: white;
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+@media (min-width: 375px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    padding: 6px 25px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    font-size: 18px;
+  }
+}
+
+/* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn {
+  min-width: 90px;
+}
+@media (min-width: 375px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 100px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 120px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 140px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 35, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn {
+    min-width: 160px;
+  }
+}
+/* line 51, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--primary {
+  border-color: #F8E71C;
+  color: #F8E71C;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 56, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--primary:hover {
+    background: #F8E71C;
+    color: white;
+  }
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--brand {
+  border-color: #000;
+  color: #000;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 67, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--brand:hover {
+    background: #000;
+    color: white;
+  }
+}
+/* line 73, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--white {
+  border-color: white;
+  color: white;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 78, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--white:hover {
+    background: white;
+    color: #000;
+  }
+}
+/* line 84, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--white-2 {
+  border-color: white;
+  color: white;
+  background: transparent;
+}
+@media (min-width: 768px) {
+  /* line 89, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--white-2:hover {
+    background: white;
+    color: #000;
+  }
+}
+/* line 95, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__ghost--secondary {
+  border-color: #000;
+  color: #000;
+}
+@media (min-width: 768px) {
+  /* line 99, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__ghost--secondary:hover {
+    background: #000;
+    color: white;
+  }
+}
+/* line 106, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--white {
+  background: white;
+  color: #000;
+}
+/* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--text {
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  /* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--text {
+    font-size: 11px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--text {
+    font-size: 12px;
+  }
+}
+/* line 119, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn.with--icon {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+/* line 122, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn.with--icon svg {
+  width: 16px;
+  margin-right: 6px;
+}
+
+/* line 129, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--primary {
+  background: #F8E71C;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 133, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--primary:hover {
+    background: #faec4d;
+  }
+}
+
+/* line 139, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--brand {
+  background: #000;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 143, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--brand:hover {
+    background: #1a1a1a;
+  }
+}
+
+/* line 148, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--brand-3 {
+  background: #000;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 152, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--brand-3:hover {
+    background: #1a1a1a;
+  }
+}
+
+/* line 158, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn--secondary {
+  background: #000;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 162, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn--secondary:hover {
+    background: #1a1a1a;
+  }
+}
+
+/* line 168, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap--center {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__wrap--center {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__wrap--center {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 173, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+  .btn__wrap--center {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+  }
+}
+/* line 182, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap .btn {
+  -webkit-box-flex: 0 1 auto;
+  -moz-box-flex: 0 1 auto;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+/* line 185, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn__wrap .btn--back {
+  margin-right: auto;
+}
+
+/* line 190, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn:disabled {
+  background: #c7c7c7 !important;
+  cursor: not-allowed !important;
+  color: white !important;
+}
+/* line 194, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_button.scss */
+.btn:disabled:hover {
+  background: #c7c7c7 !important;
+}
+
+/* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_cookies.sass */
+.cookies__container {
+  background-color: white;
+  padding: 2rem;
+}
+/* line 8, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_cookies.sass */
+.cookies__buttons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+/* line 13, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_cookies.sass */
+.cookies__buttons > * {
+  margin-top: 1rem;
+}
+@media (min-width: 992px) {
+  /* line 8, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_cookies.sass */
+  .cookies__buttons {
+    display: block;
+  }
+}
+
+/* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--wrap {
+  position: fixed;
+  bottom: 20px;
+  right: calc(10px + 5px);
+  z-index: 2;
+}
+@media (min-width: 768px) {
+  /* line 4, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+  .contact__popup--wrap {
+    bottom: 30px;
+    right: 30px;
+  }
+}
+/* line 14, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--wrap #speech--close svg {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 25, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--wrap.active #speech--close svg {
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+  visibility: visible;
+}
+/* line 34, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--wrap.active #speech--open svg {
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 42, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--wrap.active .contact__popup--menu__wrap {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
+  visibility: visible;
+}
+/* line 49, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--icon {
+  bottom: 0px;
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  right: 0px;
+  background: #000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+@media (min-width: 768px) {
+  /* line 49, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+  .contact__popup--icon {
+    height: 54px;
+    width: 54px;
+  }
+}
+/* line 64, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--icon svg {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 32px;
+  position: absolute;
+  width: 32px;
+  padding: 6px;
+}
+@media (min-width: 768px) {
+  /* line 64, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+  .contact__popup--icon svg {
+    height: 40px;
+    width: 40px;
+  }
+}
+/* line 78, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--menu__wrap {
+  background: #000;
+  bottom: 76px;
+  opacity: 0;
+  position: fixed;
+  right: 10px;
+  visibility: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+@media (min-width: 768px) {
+  /* line 78, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+  .contact__popup--menu__wrap {
+    bottom: 94px;
+    right: 25px;
+  }
+}
+/* line 92, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--menu__wrap ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+}
+/* line 102, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--menu__item {
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 768px) {
+  /* line 102, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+  .contact__popup--menu__item {
+    margin-bottom: 1rem;
+  }
+}
+/* line 107, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--menu__item:last-child {
+  margin: 0;
+}
+/* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+.contact__popup--menu__item svg {
+  cursor: pointer;
+  display: block;
+  height: 32px;
+  max-width: 32px;
+}
+@media (min-width: 768px) {
+  /* line 110, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_popup.scss */
+  .contact__popup--menu__item svg {
+    height: 40px;
+    max-width: 40px;
+  }
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  background: #000;
+  box-sizing: border-box;
+  opacity: 0;
+  padding: 40px 20px 20px;
+  visibility: hidden;
+  width: 100%;
+}
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal ::placeholder {
+  color: #000;
+  opacity: 1;
+}
+/* line 17, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal :-ms-input-placeholder {
+  color: #000;
+}
+/* line 21, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal ::-ms-input-placeholder {
+  color: #000;
+}
+/* line 24, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal--close {
+  left: -16px;
+  top: 20px;
+  position: absolute;
+}
+/* line 28, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal--close svg {
+  height: 32px;
+  width: 32px;
+}
+/* line 34, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal .form__field * {
+  font-size: 14px;
+}
+/* line 37, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal .form__field input, .contact__modal .form__field textarea {
+  width: 100%;
+  background: white;
+}
+/* line 41, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal .form__field select {
+  font-family: "proxima-nova";
+  font-weight: bold;
+  background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#fff' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) 10px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+/* line 50, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal .form__field select option {
+  text-align: center;
+}
+/* line 55, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal--wrap {
+  left: 25px;
+  opacity: 0;
+  position: absolute;
+  right: 25px;
+  top: 40px;
+  visibility: hidden;
+  z-index: 10;
+}
+@media (min-width: 375px) {
+  /* line 55, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+  .contact__modal--wrap {
+    left: 40px;
+    right: 40px;
+  }
+}
+/* line 67, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal--wrap.active {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
+  visibility: visible;
+}
+/* line 71, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal--wrap.active .contact__modal {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+/* line 79, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal--title {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+/* line 85, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+.contact__modal button {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_modal.scss */
+#contact__submit svg {
+  height: 35px;
+  width: 35px;
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: #000;
+  padding: 30px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form {
+    padding: 30px 40px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form {
+    padding: 40px 60px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form {
+    padding: 50px 80px;
+  }
+}
+/* line 20, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form ::placeholder {
+  color: #000;
+  opacity: 1;
+}
+/* line 25, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form :-ms-input-placeholder {
+  color: #000;
+}
+/* line 29, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form ::-ms-input-placeholder {
+  color: #000;
+}
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form input:not([type="checkbox"]):not([type="submit"]):not([type="radio"]), .contact__form textarea, .contact__form select {
+  color: #000;
+  font-size: 14px;
+  padding: 12px 20px;
+}
+@media (min-width: 480px) {
+  /* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form input:not([type="checkbox"]):not([type="submit"]):not([type="radio"]), .contact__form textarea, .contact__form select {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form input:not([type="checkbox"]):not([type="submit"]):not([type="radio"]), .contact__form textarea, .contact__form select {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+}
+/* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--title {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: white;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  /* line 44, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form--title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+/* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--form {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+/* line 57, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  /* line 57, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form--wrap {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between;
+    margin-bottom: 1rem;
+  }
+}
+/* line 66, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--info {
+  -webkit-box-flex: 1 1 auto;
+  -moz-box-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  /* line 66, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form--info {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    -webkit-box-flex: 0 1 calc(50% - 1rem);
+    -moz-box-flex: 0 1 calc(50% - 1rem);
+    -webkit-flex: 0 1 calc(50% - 1rem);
+    -ms-flex: 0 1 calc(50% - 1rem);
+    flex: 0 1 calc(50% - 1rem);
+    margin: 0;
+  }
+}
+/* line 75, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--message {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1 1 auto;
+  -moz-box-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  /* line 75, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form--message {
+    -webkit-box-flex: 0 1 calc(50% - 1rem);
+    -moz-box-flex: 0 1 calc(50% - 1rem);
+    -webkit-flex: 0 1 calc(50% - 1rem);
+    -ms-flex: 0 1 calc(50% - 1rem);
+    flex: 0 1 calc(50% - 1rem);
+    margin: 0;
+  }
+}
+/* line 84, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--preference {
+  margin-bottom: 1rem;
+}
+/* line 86, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--preference select {
+  background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#000' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) 50%;
+  max-width: 100%;
+  padding-right: 30px;
+}
+/* line 97, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+.contact__form--btn input {
+  background: #000;
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 101, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_contact_form.scss */
+  .contact__form--btn input:hover {
+    background: #1a1a1a;
+  }
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero {
+  position: relative;
+  margin-left: -10px;
+  margin-right: -10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 375px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero {
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero {
+    margin-left: -140px;
+    margin-right: -140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero {
+    margin-left: -200px;
+    margin-right: -200px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+}
+/* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__text {
+  z-index: 1;
+  padding: 20px 20px 0;
+}
+@media (min-width: 768px) {
+  /* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__text {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    padding: 0;
+    padding-right: 30px;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__text {
+    padding-right: 40px;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__text {
+    padding-right: 50px;
+    margin-left: 50px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 12, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__text {
+    padding-right: 60px;
+    margin-left: 60px;
+  }
+}
+/* line 34, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__text > * {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  /* line 34, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__text > * {
+    margin-bottom: 20px;
+  }
+}
+/* line 39, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__text > *:last-child {
+  margin-bottom: 0;
+}
+/* line 45, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__text_title > * > * {
+  font-size: inherit;
+  line-height: inherit;
+}
+/* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin-top: -20px;
+  width: 100%;
+  height: 180px;
+}
+@media (min-width: 375px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    height: 220px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    height: 350px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    height: 500px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    height: 550px;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    height: 600px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 53, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__image {
+    margin-top: 0;
+    -webkit-box-flex: 0 0 60%;
+    -moz-box-flex: 0 0 60%;
+    -webkit-flex: 0 0 60%;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+  }
+}
+/* line 63, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__image_img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+}
+/* line 69, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__author_wrap {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+/* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero__author_spacer {
+  background: #000;
+  height: 5px;
+  width: 5px;
+  margin: 0 0.4rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+@media (min-width: 768px) {
+  /* line 72, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero__author_spacer {
+    margin: 0 0.5rem;
+  }
+}
+/* line 78, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero--program .hero__text {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+}
+@media (min-width: 768px) {
+  /* line 78, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero--program .hero__text {
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/* line 86, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero--program .hero__text_title {
+  -webkit-box-flex: 1 0 100%;
+  -moz-box-flex: 1 0 100%;
+  -webkit-flex: 1 0 100%;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+  -webkit-box-ordinal-group: -1;
+  -moz-box-ordinal-group: -1;
+  -ms-flex-order: -1;
+  -webkit-order: -1;
+  order: -1;
+}
+@media (min-width: 768px) {
+  /* line 86, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero--program .hero__text_title {
+    -webkit-box-ordinal-group: 0;
+    -moz-box-ordinal-group: 0;
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+  }
+}
+/* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero--program .hero__program_brand {
+  margin-left: auto;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+}
+@media (min-width: 768px) {
+  /* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero--program .hero__program_brand {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero--program .hero__program_brand {
+    width: 100px;
+    height: 100px;
+  }
+}
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/utils/mixins/_other.scss */
+.hero--program .hero__program_brand svg {
+  width: 100%;
+  max-height: 100%;
+}
+/* line 66, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/utils/mixins/_other.scss */
+.hero--program .hero__program_brand svg.rci_logo {
+  width: 80%;
+  max-height: 80%;
+}
+/* line 71, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/utils/mixins/_other.scss */
+.hero--program .hero__program_brand svg * {
+  fill: white;
+}
+@media (min-width: 768px) {
+  /* line 96, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero--program .hero__program_brand {
+    -webkit-box-ordinal-group: 0;
+    -moz-box-ordinal-group: 0;
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 107, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero--program .hero__button_wrap {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+/* line 111, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero--program .hero__button_wrap > * {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  /* line 111, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero--program .hero__button_wrap > * {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+}
+/* line 117, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero--program .hero__button_wrap > *:last-child {
+  margin: 0;
+}
+/* line 127, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+.hero.hero__program .hero__image {
+  width: 100%;
+  height: 180px;
+}
+@media (min-width: 768px) {
+  /* line 127, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero.hero__program .hero__image {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 127, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero.hero__program .hero__image {
+    height: 350px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 127, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero.hero__program .hero__image {
+    height: 400px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 127, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero.scss */
+  .hero.hero__program .hero__image {
+    height: 450px;
+  }
+}
+
+/* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.hero__slider {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+@media (min-width: 375px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider {
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider {
+    margin-left: -140px;
+    margin-right: -140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 3, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider {
+    margin-left: -200px;
+    margin-right: -200px;
+  }
+}
+/* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.hero__slider_slide {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (min-width: 375px) {
+  /* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider_slide {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider_slide {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider_slide {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider_slide {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider_slide {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+  .hero__slider_slide {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+/* line 13, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+/* line 20, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots:before {
+  content: "";
+}
+/* line 23, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots:after {
+  content: "";
+  width: 75%;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  background: #000;
+}
+/* line 32, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots li {
+  background: transparent;
+  border: 2px solid #000;
+  color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  margin: 0 0.5rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 43, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots li:before {
+  content: "";
+  border: 1px solid white;
+  position: absolute;
+  left: -3px;
+  right: -3px;
+  top: -3px;
+  bottom: -3px;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 54, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots li:first-child {
+  margin-left: 0;
+}
+/* line 57, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots li:last-child {
+  margin-right: 0;
+}
+/* line 61, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots .slick-active {
+  background: #000;
+}
+/* line 64, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/components/_hero_slider.scss */
+.slick-dots button {
+  outline: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: transparent;
+  cursor: pointer;
+}
+
+/* line 5, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+html, body {
+  font-family: "proxima-nova", helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 11, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+b, strong {
+  font-family: "proxima-nova";
+  font-weight: bold;
+}
+
+/* line 15, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  line-height: 0.9;
+}
+
+/* line 56, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+h1,
+.h1 {
+  letter-spacing: -0.5px;
+}
+
+/* line 62, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+h2,
+.h2 {
+  letter-spacing: -0.5px;
+}
+
+/* line 68, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+h3,
+.h3 {
+  letter-spacing: -0.5px;
+}
+
+/* line 74, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+h4,
+.h4 {
+  letter-spacing: -0.5px;
+}
+
+/* line 80, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+h5,
+.h5 {
+  letter-spacing: -0.5px;
+}
+
+/* line 86, /Users/bo/.rvm/gems/ruby-2.4.1@sefe/bundler/gems/SeTemplates-22c1a6d0b8c0/app/assets/stylesheets/scss/theme/smaller_earth/_typography.scss */
+h6,
+.h6 {
+  letter-spacing: -0.5px;
+}
