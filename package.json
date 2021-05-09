@@ -29,6 +29,7 @@
     "@lukeed/uuid": "^2.0.0",
     "@supabase/supabase-js": "^1.11.10",
     "@svelteschool/svelte-forms": "^0.7.0",
-    "cookie": "^0.4.1"
+    "cookie": "^0.4.1",
+    "encoding": "^0.1.13"
   }
 }
