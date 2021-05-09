@@ -8,7 +8,10 @@ const config = {
 
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
+		files: {
+			template: 'www.smallerearth.com/uk/usa-canada/summer-camp-canada/index.html'
+		}
 	}
 };
 
