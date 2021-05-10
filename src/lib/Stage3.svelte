@@ -1,13 +1,13 @@
 <script>
 	export let callback;
 
-	import { createWinner, getPrice } from '$lib/supabase.ts';
+	import { createWinner, getPrize } from '$lib/supabase.ts';
 
 	// Start retreiving the prize
-	let price = _getPrice();
+	let price = _getPrize();
 
-	async function _getPrice() {
-		let _price = await getPrice();
+	async function _getPrize() {
+		let _price = await getPrize();
 
 		return _price;
 	}
@@ -25,15 +25,15 @@
 	</header>
 	<main>
 		<img src="/images/wheel.png" />
-		{#await price}
+		{#await prize}
 			<span>Spinning the moose!....</span>
 		{:then value}
-			<span>Your price is: {value.name} 🎉</span>
+			<span>Your prize is: {value.name} 🎉</span>
 		{:catch error}
 			<span>Whoops, some error happend 😵</span>
 		{/await}
 
-		<button on:click={_createWinner}>Claim your price!</button>
+		<button on:click={_createWinner}>Claim your prize!</button>
 	</main>
 </article>
 

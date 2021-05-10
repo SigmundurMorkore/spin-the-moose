@@ -11,7 +11,7 @@ let state = {
 	prize: undefined
 }
 
-export async function getPrice (): Promise<any> {
+export async function getPrize (): Promise<any> {
 	// get available prizes
 	const { data: prizes, error } = await supabase
 		.from('prizes')
