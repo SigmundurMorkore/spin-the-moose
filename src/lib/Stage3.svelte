@@ -4,12 +4,12 @@
 	import { createWinner, getPrize } from '$lib/supabase.ts';
 
 	// Start retreiving the prize
-	let price = _getPrize();
+	let prize = _getPrize();
 
 	async function _getPrize() {
-		let _price = await getPrize();
+		let _prize = await getPrize();
 
-		return _price;
+		return _prize;
 	}
 
 	async function _createWinner() {
